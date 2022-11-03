@@ -1,29 +1,40 @@
 
-Activity:
+# Activity:
 
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your Terminal: 
 # `ruby hashes_1.rb`
 
-foods = {"apples": 23, "grapes": 507, "eggs": 48}
-p zoo
+foods = {
+  apples: 5,
+  grapes: 30,
+  eggs: 12,
+  corn: 3
+}
 
 # Write code that prints all of the 'keys' of the foods variable 
 # you created above:
-# YOUR CODE HERE
+puts foods.keys
+puts ""
 
 # Write code that prints all of the 'values' of the foods variable 
 # you created above:
-# YOUR CODE HERE
+puts foods.values
+puts ""
 
 # Write code that prints the value of the second food of the foods variable 
 # you created above:
-# YOUR CODE HERE
+puts foods.values[1]
+puts ""
+
 
 # Write code that adds a food to the foods hash. 
 # Then, print the updated hash:
-# YOUR CODE HERE
+puts foods["potatoes"] = 100000
+puts ""
+puts foods
+
 
 
 #-------------------
@@ -37,16 +48,31 @@ p zoo
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
+email = {
+  sender: "bob@aol.com",
+  title: "AAPR",
+  date: "1/23/24",
+  stared: false,
+  text: "WHEN WILL I RECIEVE MY AARP CARD SO I GET DISCOUNTS AT PANERA BREAD? -love bob"
+}
+puts ""
+
 # Write code that prints your email hash to the terminal.
 
+puts email
+puts ""
 
 # Write code that prints all of the 'keys' of the email hash 
 # you created above:
-# YOUR CODE HERE
+
+puts email.keys
+puts ""
 
 # Write code that prints all of the 'values' of the email hash 
 # you created above:
-# YOUR CODE HERE
+
+puts email.values
+puts ""
 
 
 #-------------------
@@ -97,3 +123,29 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+email = [
+  {
+  sender: "bob@aol.com",
+  title: "AAPR",
+  date: "1/23/24",
+  stared: false,
+  text: "WHEN WILL I RECIEVE MY AARP CARD SO I GET DISCOUNTS AT PANERA BREAD? -love bob"
+  },
+  {
+    sender: "tom@yahoo.com",
+    title: "music",
+    date: "2/22/22",
+    stared: true,
+    text: "Do you like music? I love music. music is cool."
+  },
+  {
+    sender: "jerry@hotmail.com",
+    title: "Projector",
+    date: "4/23/04",
+    stared: false,
+    text: "Chris, how do I connect the apple tv to the projector?"
+  },
+]
+
+puts email

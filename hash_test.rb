@@ -37,6 +37,8 @@
 # puts ""
 # puts zoo.first
 # puts ""
+# puts zoo.keys[1]
+# puts ""
 # zoo["lions"] = 2
 # puts ""
 # puts zoo[:hippos]
@@ -48,12 +50,12 @@
 
 ###################################
 
-suitcase = {
-    "socks" => 4,
-    "shirts" => 2
-}
+# suitcase = {
+#     "socks" => 4,
+#     "shirts" => 2
+# }
 
-suitcase.each do |item, quantity|
-    p "I need #{quantity} #{item}"
-end
+# suitcase.each do |item, quantity|
+#     p "I need #{quantity} #{item}"
+# end
 
