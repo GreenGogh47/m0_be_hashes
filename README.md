@@ -11,7 +11,7 @@
 Read the directions and complete all activities in each file, in this order:
 - `syntax_cleanup.rb` DONE
 - `hashes_1.rb` DONE
-- `hashes_2.rb`
+- `hashes_2.rb` DONE
 - `self_eval.md`
 
 Based on what you know about Git workflow, make commits as you see fit.
